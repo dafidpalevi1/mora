@@ -10,7 +10,7 @@
         <div class='position-absolute top-50 start-50 translate-middle'>
             <button id='button' class='btn btn-primary btn-lg' onclick='mulai()'> Klik Di Sini! </button>
             <div id='iloveyou' style='display: none;'>
-                <h2 class='text-center'>Aku sayang kamu<br>&#10084;&#65039;</h2>
+                <h2 class='text-center'>Mora sayang kamu<br>&#10084;&#65039;</h2>
             </div>
         </div>
         <span id='hati' class='fixed-bottom text-center my-3' onclick='hati()'></span>
@@ -24,7 +24,7 @@
                 confirmButtonColor: '#3085d6',
             });
             async function mulai(){
-                await swals.fire('Halo Ganteng', 'Aku ada pertanyaan nih buat kamu', 'question');
+                await swals.fire('Halo Ganteng', 'Mora ada pertanyaan nih buat kamu', 'question');
                 await swals.fire('Jawab yang jujur ya!');
                 await swals.fire('Awas aja kalo boong!!','','error');
                 var { value: nama } = await swals.fire({
