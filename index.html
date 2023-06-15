@@ -25,7 +25,7 @@
             });
             async function mulai(){
                 await swals.fire('Halo Ganteng', 'Mora ada pertanyaan nih buat kamu', 'question');
-                await swals.fire('Jawab yang jujur ya!');
+                await swals.fire('Jawab dengan jujur ya!');
                 await swals.fire('Awas aja kalo boong!!','','error');
                 var { value: nama } = await swals.fire({
                     title: 'Masukin nama kamu dulu',
